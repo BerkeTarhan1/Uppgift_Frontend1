@@ -1,0 +1,160 @@
+body{
+    font-family: sans-serif;
+    background-image: url("images/pizza_wallpaper.webp");
+    margin: 0px;
+}
+
+.Title {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.description {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: whitesmoke;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: grey;
+}
+
+.navbar li {
+    float: left;
+}
+
+.time h1, h2{
+    color: black;
+    font-size: 2em;
+}
+
+.time {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid blue;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    text-align: center;
+    
+}
+.container {
+    display: flex;
+}
+
+.pasta {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.pasta, h1 {
+    color: black;
+}
+
+.pizza {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+.plate {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.info {
+    background-color: whitesmoke;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    font-size: 2em;
+    margin: auto;
+    width: 400px;
+    height: 100px;
+    margin-top: 100px;
+    border-radius: 5px;
+
+}
+.orderTitle{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    border: 2px solid whitesmoke;
+
+}
+
+.optionTitle {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.orderFunction {
+    background-color: white;
+    text-align: center;
+    border: 5px solid black;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+}
+
+.sodaPrices {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+
+

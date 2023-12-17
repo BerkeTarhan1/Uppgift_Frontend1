@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkes Pizzeria</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+        <h1 class="Title">Berkes Pizzeria</h1>
+        <h2 class="description">Välkommen till Berkes Pizzeria</h2>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="order.html">Beställ</a></li>
+                <li><a href="aboutUs.html">Om oss</a></li>
+            </ul>
+        </nav>
+
+        <h2 class="optionTitle">Välj din beställning</h2>
+
+       <div class="orderFunction">
+        <form id="orderForm">
+           <label for="foodType">Välj maträtt:</label>
+           <select id="foodType">
+               <option value="oxfilepasta">Oxfilepasta</option>
+               <option value="kycklingpasta">Kycklingpasta</option>
+               <option value="pastacarbonara">Pastacarbonara</option>
+               <option value="kebabpizza">Kebabpizza</option>
+               <option value="oxfilepizza">Oxfilepizza</option>
+               <option value="kycklingpizza">Kycklingpizza</option>
+               <option value="kebabtallrik">Kebabtallrik</option>
+               <option value="kycklingtallrik">Kycklingtallrik</option>
+               <option value="mixtallrik">Mixtallrik</option>
+           </select>
+
+           <br>
+
+           <label for="drinkType">Välj dryck:</label>
+           <select id="drinkType">
+               <option value="fanta">Fanta</option>
+               <option value="cola">Cola</option>
+               <option value="vatten">Vatten</option>
+           </select>
+
+           <br>
+
+           <label for="quantity">Antal:</label>
+           <input type="number" id="quantity" value="1">
+
+           <br>
+
+           <button type="button" onclick="calculateTotal()">Beställ</button>
+       </form>
+       </div>
+
+
+
+
+
+</body>
+</html>
